@@ -1,5 +1,6 @@
 #include <iostream>
 #include <glib/glib.h>
+#include <glib/animation/loader/SparrowAtlasLoader.h>
 
 static bool wPressed = false;
 static bool aPressed = false;
