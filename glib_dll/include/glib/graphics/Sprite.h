@@ -8,6 +8,7 @@
 #include "../math/Axis.h"
 #include "../utils/Color.h"
 #include "../animation/Animation.h"
+#include "../physics/PhysicsObject.h"
 
 #include <string>
 #include <map>
@@ -16,15 +17,13 @@ namespace glib
 {
 	class SpriteImpl;
 
-	class Sprite : public Drawable
+	class Sprite : public Drawable, public PhysicsObject
 	{
 	public:
-		Vec2 pos;
 		Vec2 size;
 		Vec2 scale;
 		Vec2 offset;
 		Texture* tex;
-		float rotation;
 		Color color;
 		bool xFlip;
 		bool yFlip;

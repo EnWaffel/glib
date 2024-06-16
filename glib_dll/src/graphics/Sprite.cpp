@@ -143,7 +143,7 @@ namespace glib
 
 using namespace glib;
 
-glib::Sprite::Sprite() : scale(Vec2(1.0f, 1.0f)), tex(nullptr), rotation(0.0f), color({ 1.0f, 1.0f, 1.0f, 1.0f }), xFlip(false), yFlip(false)
+glib::Sprite::Sprite() : scale(Vec2(1.0f, 1.0f)), tex(nullptr), color({ 1.0f, 1.0f, 1.0f, 1.0f }), xFlip(false), yFlip(false)
 {
 	impl = new SpriteImpl(this);
 	visible = true;

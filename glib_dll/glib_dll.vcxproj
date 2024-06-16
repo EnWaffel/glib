@@ -197,6 +197,9 @@
     <ClCompile Include="src\graphics\Shader.cpp" />
     <ClCompile Include="src\Instance.cpp" />
     <ClCompile Include="src\math\Vec2.cpp" />
+    <ClCompile Include="src\physics\component\BoxCollider.cpp" />
+    <ClCompile Include="src\physics\PhysicsManager.cpp" />
+    <ClCompile Include="src\physics\PhysicsObject.cpp" />
     <ClCompile Include="src\sound\AudioDataSource.cpp" />
     <ClCompile Include="src\sound\Sound.cpp" />
     <ClCompile Include="src\sound\SoundManager.cpp" />
@@ -230,6 +233,10 @@
     <ClInclude Include="include\glib\graphics\Texture.h" />
     <ClInclude Include="include\glib\Instance.h" />
     <ClInclude Include="include\glib\math\Axis.h" />
+    <ClInclude Include="include\glib\physics\component\BoxCollider.h" />
+    <ClInclude Include="include\glib\physics\component\PhysicsComponent.h" />
+    <ClInclude Include="include\glib\physics\PhysicsManager.h" />
+    <ClInclude Include="include\glib\physics\PhysicsObject.h" />
     <ClInclude Include="include\glib\utils\Color.h" />
     <ClInclude Include="include\glib\math\Mat4.h" />
     <ClInclude Include="include\glib\math\MathFunctions.h" />
@@ -239,6 +246,7 @@
     <ClInclude Include="include\glib\sound\SoundManager.h" />
     <ClInclude Include="include\glib\sound\AudioDataSource.h" />
     <ClInclude Include="include\glib\utils\Easing.h" />
+    <ClInclude Include="include\glib\utils\Face.h" />
     <ClInclude Include="include\glib\utils\ImageUtils.h" />
     <ClInclude Include="include\glib\utils\KeyCode.h" />
     <ClInclude Include="include\glib\window\Window.h" />

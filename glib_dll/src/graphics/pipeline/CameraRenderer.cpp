@@ -29,7 +29,7 @@ void main()
 }
 )";
 
-static const char* FRAGMENT_SADER = R"(
+static const char* FRAGMENT_SHADER = R"(
 #version 330 core
 
 uniform sampler2D tex;
@@ -89,7 +89,7 @@ void glib::CameraRenderer::Construct(Window* wnd)
 	Vec2 size = wnd->GetInitialSize();
 	m_Size = size;
 
-	m_Shd = wnd->LoadShader(VERTEX_SHADER, FRAGMENT_SADER);
+	m_Shd = wnd->LoadShader(VERTEX_SHADER, FRAGMENT_SHADER);
 
 	ConstructFBO(Vec2(0.0f, 0.0f), size);
 

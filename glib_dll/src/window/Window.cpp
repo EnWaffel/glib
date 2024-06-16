@@ -348,7 +348,7 @@ namespace glib
 
 			if (data.channels == 3)
 			{
-				glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, data.width, data.height, 0, GL_RGB, GL_UNSIGNED_BYTE, data.data);
+				glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, data.width, data.height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data.data);
 			}
 			else if (data.channels == 4)
 			{

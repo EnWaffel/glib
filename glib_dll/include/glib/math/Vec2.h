@@ -12,6 +12,7 @@ namespace glib
 	public:
 		GLIB_API Vec2();
 		GLIB_API Vec2(float x, float y);
+
 		GLIB_API Vec2 operator+(Vec2& other);
 		GLIB_API Vec2 operator-(Vec2& other);
 		GLIB_API Vec2 operator+(float value);
@@ -19,5 +20,7 @@ namespace glib
 		GLIB_API void operator+=(float value);
 		GLIB_API void operator-=(float value);
 		GLIB_API Vec2 operator-();
+
+		GLIB_API float Distance(const Vec2& other);
 	};
 }

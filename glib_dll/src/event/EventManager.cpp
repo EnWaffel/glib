@@ -7,7 +7,7 @@ namespace glib
 	class EventManagerImpl
 	{
 	private:
-		std::map<EventSubscriber* , EventList> m_Subscribers;
+		std::map<EventSubscriber*, EventList> m_Subscribers;
 	public:
 		EventManagerImpl()
 		{
